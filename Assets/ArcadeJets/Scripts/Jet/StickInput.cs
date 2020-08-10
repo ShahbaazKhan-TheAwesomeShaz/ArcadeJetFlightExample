@@ -5,7 +5,7 @@ namespace ArcadeJets
    public class StickInput : MonoBehaviour
    {
       [Tooltip("When true, pulls input from the player.")]
-      public bool isPlayer = false;
+      public bool isPlayer = true;
 
       [SerializeField]
       private Vector3 stickInput;
